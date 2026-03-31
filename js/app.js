@@ -1,4 +1,6 @@
-function calculate() {
+import { renderApp } from "./core/render.js";
+
+renderApp();function calculate() {
   let s = +document.getElementById("speed").value;
   let d = +document.getElementById("data").value;
   let r = +document.getElementById("realtime").value;

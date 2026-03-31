@@ -1,14 +1,39 @@
 body {
-  font-family: Arial;
-  max-width: 600px;
-  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #0f172a;
+  color: white;
 }
 
-input {
-  width: 60px;
+.engine-container {
+  padding: 20px;
 }
 
-.result {
+.card {
+  background: #1e293b;
+  padding: 16px;
+  border-radius: 12px;
   margin-top: 20px;
-  font-weight: bold;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #38bdf8;
+  cursor: pointer;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  display: inline-block;
+  width: 180px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 8px 12px;
 }
